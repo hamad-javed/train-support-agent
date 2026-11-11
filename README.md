@@ -8,6 +8,8 @@ After building a [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generat
 
 This project recreates that kind of support experience with dummy data: 26 real UK station names, about 15,000 generated train journeys, and two sample customers with bookings. None of it comes from Trainline or any real booking system.
 
+## What it does
+
 The agent can:
 
 1. **Check train status** for the customer's bookings (on time, delayed or cancelled)
