@@ -1,6 +1,12 @@
 # Train support agent (local, Ollama)
 
-A customer support AI agent for a made-up UK train company, built to learn how agents work. It runs fully locally on a small model (llama3.1, 8B) through Ollama, with about 600 lines of Python and no agent framework.
+A customer support AI agent for UK train travel, built to learn how agents work. It runs fully locally on a small model (llama3.1, 8B) through Ollama, with about 600 lines of Python and no agent framework.
+
+## Inspiration
+
+After building a [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) pipeline, I wanted to understand what makes an AI *agent* different. I needed a realistic example, so I picked the app I use most often: **Trainline**. Its customer support handles the kinds of requests an agent is good at: checking whether my train is on time, claiming money back when it's late (Delay Repay), and finding trains for a trip.
+
+This project recreates that kind of support experience with dummy data: 26 real UK station names, about 15,000 generated train journeys, and two sample customers with bookings. None of it comes from Trainline or any real booking system.
 
 The agent can:
 
@@ -109,4 +115,4 @@ Dates are relative to the day you run `seed_db.py`.
 - Add booking changes back with a stronger model
 - A web UI (FastAPI + a simple chat page)
 
-All data is fictional. This project is not affiliated with any train company.
+This is a personal learning project. It is not affiliated with or endorsed by Trainline or any train operator, and all bookings, customers and timetable data are generated dummy data.
