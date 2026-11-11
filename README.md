@@ -18,6 +18,10 @@ The agent can:
 
 Anything else (for example changing a booking) is handed to a human with `escalate_to_human`.
 
+![The agent answering a train search from Sheffield to London around 12PM](docs/images/demo-train-search.png)
+
+*Asking for trains in plain English. Behind the scenes the agent wrote its own SQL query (run with `-v` to see it).*
+
 ## RAG vs agent
 
 - **RAG:** the code always runs the same steps: retrieve relevant text, then generate an answer.
